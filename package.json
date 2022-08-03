@@ -1,0 +1,22 @@
+{
+  "name": "gilded-rose",
+  "version": "0.0.0",
+  "author": "Thomas <tirke@tirke.dev> (https://github.com/Tirke)",
+  "type": "module",
+  "description": "Gilded Rose in TypeScript",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "vitest": "^0.20.3"
+  }
+}
